@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: #A12020;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+body{
+    background-color: #A12020;
+}
+a{
+    text-decoration: none;
+    color:white ;
+
+
+}
+nav a{
+    font-weight: 50px;
+    padding-right: 10px;
+}
+nav a:hover{
+    color:black;
+}
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px;
+    }
+}
