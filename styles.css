@@ -61,28 +61,61 @@ nav a:hover {
     color: black;
 }
 
-.container-article {
+.container-article-1 {
     display: flex;
     flex-direction: row;
     margin-inline: 100px;
+    justify-content: space-between;
+    margin-block: 75px;
+    margin-inline: 150px;
+}
+
+.container-article-2 {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 200px;
     justify-content: center;
+    margin-bottom: 10px;
+}
+
+.container-article-3 {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 100px;
+    justify-content: space-between;
+    margin-block: 75px;
+    margin-inline: 45px;
+}
+
+.container-article-4 {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 100px;
+    justify-content: space-between;
+    margin-block: 75px;
+    margin-inline: 150px;
+    background-color: #857978;
+    border: 10px solid #857978;
+    border-radius: 5px;
 }
 
 .text-article {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .title-article {
     color: white;
     font-size: 30px;
     max-width: 250px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
 }
 
 .paragraph-article {
     color: white;
     max-width: 500px;
+    margin-bottom: 10px;
 }
 
 .img-article {
@@ -100,6 +133,72 @@ nav a:hover {
 .button-article:hover {
     color: black;
     background-color: rgb(78, 77, 77);
+}
+
+.brands-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #857978;
+    border: 10px solid #857978;
+    border-radius: 5px;
+}
+
+.text-brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.brands-paragraph {
+    color: #857978;
+}
+
+.middle-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strong-title {
+    font-size: 50px;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 10px;
+    margin-inline: 20px;
+}
+
+.img-1 {
+    width: 30px;
+    background-color: #FFEED4;
+    border: 8px solid #FFEED4;
+    border-radius: 5px;
+}
+
+.img-2 {
+    width: 30px;
+    background-color: #D4F0FF;
+    border: 8px solid #D4F0FF;
+    border-radius: 5px;
+}
+
+.card h1 {
+    font-size: 20px;
+}
+
+.card p {
+    margin-top: 2px;
+    max-width: 300px;
 }
 
 .container {
